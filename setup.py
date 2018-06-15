@@ -8,7 +8,7 @@ setuptools.setup(
     author="Fx Kirin",
     author_email="ono.kirin@gmail.com",
 
-    description="An opinionated, minimal cookiecutter template for Python packages",
+    description="",
     long_description=open('README.rst').read(),
 
     packages=setuptools.find_packages(),

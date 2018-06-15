@@ -31,8 +31,3 @@ class Lock(object):
         logging.debug("Exiting Lock from:%s created:%s"%(trace[-2], self.lock_created_trace))
         self.lock.release()
         
-if __name__ == "__main__":
-    logging.basicConfig(format='%(asctime)s %(message)s', level=logging.DEBUG)
-    lock = Lock()
-    with lock:
-        pass

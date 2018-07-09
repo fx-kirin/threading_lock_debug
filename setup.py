@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="threading_lock_debug",
-    version="0.1.0",
+    version="0.1.1",
     url="https://github.com/fx-kirin/threading_lock_debug",
 
     author="Fx Kirin",

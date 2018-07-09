@@ -25,6 +25,7 @@ class Lock(object):
         trace = traceback.extract_stack()
         logging.debug("Entering Lock from:%s created:%s"%(trace[-2], self.lock_created_trace))
         self.lock.acquire()
+        logging.debug("Entered Lock from:%s created:%s"%(trace[-2], self.lock_created_trace))
         
     def __exit__(self, *args, **kwargs):
         trace = traceback.extract_stack()
